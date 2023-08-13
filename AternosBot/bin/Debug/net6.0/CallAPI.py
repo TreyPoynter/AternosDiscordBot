@@ -4,7 +4,7 @@ from python_aternos import Client
 from python_aternos import ServerStartError
 
 # Log in
-aternos = Client.from_credentials('The_Imposter2', 'Nowayamongus!') # User, Pass
+aternos = Client.from_credentials('Butter46', 'legend#46') # User, Pass
 
 servs = aternos.list_servers()
 
@@ -12,7 +12,7 @@ myserv = servs[0]
 
 currServer = None
 for serv in servs:
-    if serv.address == 'Metrovania_2.aternos.me': # IP
+    if serv.address == 'Groomfies.aternos.me': # IP
         currServer = serv
 
 serverIsStarted = False;

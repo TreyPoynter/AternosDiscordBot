@@ -1,12 +1,5 @@
 ﻿using DSharpPlus.CommandsNext;
 using DSharpPlus.CommandsNext.Attributes;
-using DSharpPlus.Interactivity;
-using DSharpPlus.Interactivity.Extensions;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Diagnostics;
 
 namespace AternosBot.Commands
@@ -23,6 +16,7 @@ namespace AternosBot.Commands
             ProcessStartInfo startInfo = new ProcessStartInfo();
             bool serverIsUp = false;
 
+            // Python code in C#
             await ctx.Message.RespondAsync("Getting Server...");
             startInfo.FileName = @"C:\Users\doodl\AppData\Local\Programs\Python\Python311\python.exe"; // path to python.exe
             startInfo.Arguments = "CallAPI.py";

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FDtlbglrdiSWZHgwMrKV7vR3+5+pbJy42tFWohcXSJj3VNFXa/A0RxbIlCeUtth7+NIh+RnIrZdBmaimF58hqw==",
+  "dgSpecHash": "5DuAD+kmo2ju7+gIKWYVlzNd6qHFzAAzwNf5cZDcmzSEfOp0rj7Fp/FhMNB64ZlIQ4Vbv1pH+tn0qzE1OaRrIg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\doodl\\OneDrive\\Desktop\\AternosBot\\AternosBot.csproj",
+  "projectFilePath": "D:\\Ranken Folders\\AternosDiscordBot\\AternosBot\\AternosBot.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\doodl\\.nuget\\packages\\concurrenthashset\\1.1.0\\concurrenthashset.1.1.0.nupkg.sha512",
     "C:\\Users\\doodl\\.nuget\\packages\\dsharpplus\\4.3.0\\dsharpplus.4.3.0.nupkg.sha512",

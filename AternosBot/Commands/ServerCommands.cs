@@ -41,6 +41,9 @@ namespace AternosBot.Commands
             {
                 await ctx.Message.RespondAsync($"Server Starting on {DateTime.Now.ToString("M")} - " +
                                            $"<t:{unixTime}:t> {ctx.Member.Mention}");
+            }else
+            {
+                await ctx.Message.RespondAsync($"Failed to start server");
             }
         }
     }
